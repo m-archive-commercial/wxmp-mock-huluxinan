@@ -1,0 +1,35 @@
+.bill-item-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid gray;
+
+  .bill-item-view-left {
+    .bill-item-view-left-date {
+      display: inline-flex;
+      color: cornflowerblue;
+
+      .bill-item-view-left-date-icon {
+        padding: 0 5px;
+      }
+
+      .bill-item-view-left-date-text  {
+
+      }
+    }
+
+    .bill-item-view-left-user {
+      color: #A09EAE;
+    }
+
+    .bill-item-view-left-bill-type {
+      color: #A09EAE;
+    }
+  }
+
+  .bill-item-view-right {
+
+  }
+}

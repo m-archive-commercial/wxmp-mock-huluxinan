@@ -1,0 +1,13 @@
+.business {
+
+  .post-bill-operations {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+
+    .post-bill-operation {
+      width: 40%;
+    }
+  }
+}

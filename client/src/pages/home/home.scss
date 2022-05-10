@@ -1,0 +1,33 @@
+.user-bg {
+  background: mediumpurple;
+  width: 100%;
+  height: 320px;
+  position: relative;
+
+  .user-info {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .user-avatar {
+
+    }
+
+    .user-name {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 28px;
+    }
+  }
+}

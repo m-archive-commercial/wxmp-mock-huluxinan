@@ -1,0 +1,27 @@
+$paddingLR: 20px;
+
+.container-header {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  .container-title{
+    margin-left: 20px;
+    padding-left: $paddingLR;
+
+    border-left: 10px solid cornflowerblue;
+  }
+
+  .container-extra{
+    padding-right: $paddingLR;
+  }
+}
+
+#tags {
+  margin: $paddingLR;
+  display: flex;
+  flex-wrap: wrap;
+}
